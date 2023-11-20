@@ -159,7 +159,7 @@
 
     @media screen and (max-width: 360px) {
        
-        article #descripcion {
+        #descripcion {
             display: none; 
         }
         nav {
