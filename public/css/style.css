@@ -4,9 +4,32 @@
         padding: 0;
         box-sizing: border-box;
     }
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    ul li a {
+        color: black;
+        text-decoration: none;
+    
+    }
+
+    #ul1{
+        padding-top: 20px ;
+    }
+
+    #ul2{
+        padding-top: 20px ;
+        padding-bottom: 20px;
+    }
 
     main{
         width: 90vw;
+        font-size: 12px;
     }
 
     article{
@@ -14,3 +37,95 @@
         border: 1px solid #ebebeb;
         padding: 15px;
     }
+
+    header{
+        width: 100vw;
+        background-color: #EAC926;
+        padding-left: 10px;
+        
+    }
+
+    header img{
+        width: 50%;
+        padding: 30px;
+    }
+
+    header p{
+        padding-top: 20px;
+        
+    }
+
+    .burger-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 25px;
+       
+
+    }
+
+    #menuBurger{
+        background-color:#1259c3;
+        color: #ebebeb;
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #precio{
+        font-size: 18px;
+    }
+
+    #descuento{
+        font-size: 16px;
+    }
+
+    #descripcion{
+        font-size: 16px;
+    }
+
+    #titular{
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    footer{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    footer section{
+        margin-bottom: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .credit-card-icon {
+        color:#1259c3;
+        font-size: 2em; 
+        margin-bottom: 10px;
+    }
+
+    .gift-icon {
+        color:#1259c3;
+        font-size: 2em; 
+        margin-bottom: 10px;
+    }
+
+    .security-icon {
+        color:#1259c3;
+        font-size: 2em; 
+        margin-bottom: 10px;
+    }
+
+    #copyright{
+        color: #666;
+    }
+
+    
