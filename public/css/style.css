@@ -194,6 +194,61 @@ footer section {
   color: #666;
 }
 
+.formulario {
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 2%;
+}
+.control-formulario {
+    margin-bottom: 45px;
+    text-align: left; 
+    margin-left: 10%;
+}
+.control-formulario h3 {
+    margin: -22.5px 0 22.5px;
+    display: block;
+    text-align: left;
+}
+.control{
+    width: 88.5%;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 1px var(--light-gray);
+}
+.radio{
+    margin-left: 25px;
+}
+.radio input{
+    margin-right: 25px;
+}
+.check{
+    margin-left: 25px;
+    padding: 10px;
+}
+.check input{
+    margin: 0 25px 20px 0;
+}
+
+.boton-formulario{
+    width: 40%;
+    background-color: #03264C;
+    border: none;
+    font-size: 20px;
+    color:#ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 450ms;
+}
+
+#botones{
+    display: flex;
+    justify-content: space-around;
+
+}
+
 @media screen and (max-width: 360px) {
   #descripcion {
     display: none;
